@@ -2,14 +2,14 @@
   const domain = location.hostname.replace("www.", "");
 
   const site = {
-        "d1": "/23330730517/gamenila.com_d1",
-        "d2": "/23330730517/gamenila.com_d2",
-        "d3": "/23330730517/gamenila.com_d3",
-        "reward": "/23330730517/gamenila.com_reward",
-        "inter": "/23330730517/gamenila.com_inter",
-        "gtag": "G-4R2W0RNNG5",
-        "conversion": "AW-18079014570/upnmCNrBq5kcEKq936xD",
-        "gam": "AW-18079014570"
+        "d1": "/23330730517/playarenax.in_d1",
+        "d2": "/23330730517/playarenax.in_d2",
+        "d3": "/23330730517/playarenax.in_d3",
+        "reward": "/23330730517/playarenax.in_reward",
+        "inter": "/23330730517/playarenax.in_inter",
+        "gtag": "G-8QJCLLREYS",
+        "conversion": "AW-17912215979/upnmCNrBq5kcEKq936xD",
+        "gam": "AW-17912215979"
     };
 
   window.AD_CONFIG = site;

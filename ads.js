@@ -100,14 +100,19 @@
     adSlots.forEach(function ({ divId }) {
       googletag.display(divId);
     });
-
+    
+if (rewardedSlot) {
+  rewardedSlot.addService(googletag.pubads());
+}
     // Show loader first, then display rewarded ad after 1s
     showLoader();
     setTimeout(function () {
       hideLoader();
-      if (rewardedSlot) {
-        googletag.display(rewardedSlot);
-      }
+      
+  if (rewardedSlot) {
+    googletag.pubads().refresh([rewardedSlot]); // 👈 correct trigger
+  }
+
     }, 1000);
 
   });
